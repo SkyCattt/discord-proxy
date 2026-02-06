@@ -12,7 +12,7 @@ export default async function handler(req, res) {
 
   if (req.method === 'POST') {
     // ЗАМЕНИ НА СВОЙ ВЕБХУК ДИСКОРДА
-    const DISCORD_URL = "https://discord.com/api/webhooks/ТВОЙ_ID/ТВОЙ_ТОКЕН";
+    const DISCORD_URL = "https://discord.com/api/webhooks/1469307108208939110/32gYh7SY35oBW7MLqCoLNz6MBq-B-9dFAl5Vi8JFkxZaPoTupmfo8oHnafmfPRutvOV1";
 
     try {
       const response = await fetch(DISCORD_URL, {
